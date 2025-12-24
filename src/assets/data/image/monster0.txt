@@ -1,8 +1,0 @@
-barrel
-beaker
-bottle
-can
-flask
-jar
-pipe
-tube
