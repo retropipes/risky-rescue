@@ -1,22 +1,16 @@
-# This repository only
-RiskyRescue/bin
-RiskyRescue/.classpath
-RiskyRescue/.project
-RiskyRescue/.settings
-
-# Compiled class file
+# Java: Compiled class file
 *.class
 
-# Log file
+# Java: Log file
 *.log
 
-# BlueJ files
+# Java: BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Java: Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Java: Package Files
 *.jar
 *.war
 *.nar
@@ -25,19 +19,154 @@ RiskyRescue/.settings
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Java: virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# macOS generated files
-## General
+# Eclipse: General
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse: External tool builders
+.externalToolBuilders/
+
+# Eclipse: Locally stored "Eclipse launch configurations"
+*.launch
+
+# Eclipse: PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# Eclipse: CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# Eclipse: CDT- autotools
+.autotools
+
+# Eclipse: Java annotation processor (APT)
+.factorypath
+
+# Eclipse: PDT-specific (PHP Development Tools)
+.buildpath
+
+# Eclipse: sbteclipse plugin
+.target
+
+# Eclipse: Tern plugin
+.tern-project
+
+# Eclipse: TeXlipse plugin
+.texlipse
+
+# Eclipse: STS (Spring Tool Suite)
+.springBeans
+
+# Eclipse: Code Recommenders
+.recommenders/
+
+# Eclipse: Annotation Processing
+.apt_generated/
+.apt_generated_test/
+
+# Eclipse: Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+# Lua: Compiled Lua sources
+luac.out
+
+# Lua: luarocks build files
+*.src.rock
+*.zip
+*.tar.gz
+
+# Lua: Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# Lua: Precompiled Headers
+*.gch
+*.pch
+
+# Lua: Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Lua: Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Lua: Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Windows: thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows: Dump file
+*.stackdump
+
+# Windows: Folder config file
+[Dd]esktop.ini
+
+# Windows: Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows: Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows: shortcuts
+*.lnk
+
+# macOS: General
 .DS_Store
 .AppleDouble
 .LSOverride
 
-## Thumbnails
+# macOS: Icon must end with two \r
+Icon
+
+
+# macOS: Thumbnails
 ._*
 
-## Files that might appear in the root of a volume
+# macOS: Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -46,34 +175,27 @@ hs_err_pid*
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
-## Directories potentially created on remote AFP share
+# macOS: Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
 
-# Windows-specific files
-## Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+# Linux: General
+*~
 
-## Dump file
-*.stackdump
+# Linux: temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-## Folder config file
-[Dd]esktop.ini
+# Linux: KDE directory preferences
+.directory
 
-## Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Linux: Linux trash folder which might appear on any partition or disk
+.Trash-*
 
-## Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
+# Linux: .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
-## Windows shortcuts
-*.lnk
+# Exceptions
+!extlib/*.jar
